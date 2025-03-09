@@ -52,6 +52,7 @@ public class FileController {
 
     @GetMapping("/upload-excel")
     public String getUploadPage() {
+    	System.out.println("helooo");
         return "upload";
     }
 
